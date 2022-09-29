@@ -13,11 +13,13 @@
 
 .appContainer {
     display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .container{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +36,7 @@
 }
 
 .simbolo {
-    font-size: 200px;
+    font-size: 150px;
 }
 
 .cuadrado {

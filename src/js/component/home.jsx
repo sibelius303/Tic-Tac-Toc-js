@@ -202,6 +202,7 @@ const Home = () => {
 
 	return (
 		<div className="appContainer">
+			<h1>Tik Tak Toe</h1>
 			<h1>Turno de {jugador}</h1>
 			<div className="container">
 				<div className={color} onClick={handleClick1}><h1 className="simbolo">{cuadricula1}</h1></div>
