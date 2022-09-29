@@ -10,3 +10,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.appContainer {
+    display: flex;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.container div{
+    border: solid 1px black;
+    width: 33%;
+    height: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simbolo {
+    font-size: 200px;
+}
+
+.cuadrado {
+    background-color: green;
+    opacity: 0.6;
+}
